@@ -1,0 +1,6 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Github\RandomUE4Stuff).
+  Parsing headers for RandomUE4StuffEditor
+    Running UnrealHeaderTool "D:\Github\RandomUE4Stuff\RandomUE4Stuff\RandomUE4Stuff.uproject" "D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\RandomUE4StuffEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for RandomUE4StuffEditor in 5.7006653 seconds
+UnrealBuildTool : error : Unable to start regular build while Live Coding is active. Press Ctrl+Alt+F11 to trigger a Live Coding compile.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""D:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Build.bat" RandomUE4StuffEditor Win64 Development -Project="D:\Github\RandomUE4Stuff\RandomUE4Stuff\RandomUE4Stuff.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
