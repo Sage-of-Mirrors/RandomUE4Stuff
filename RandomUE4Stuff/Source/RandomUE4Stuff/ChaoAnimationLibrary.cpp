@@ -1,8 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include <stdio.h>
-#include <string.h>
-
 #include "ChaoAnimationLibrary.h"
 #include <Runtime\Core\Public\HAL\PlatformFilemanager.h>
 #include <Runtime\Core\Public\HAL\PlatformFile.h>

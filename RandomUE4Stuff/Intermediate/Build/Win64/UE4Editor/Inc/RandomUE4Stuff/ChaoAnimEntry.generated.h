@@ -17,13 +17,26 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID RandomUE4Stuff_Source_RandomUE4Stuff_ChaoAnimEntry_h
 
 
+#define FOREACH_ENUM_LOOPTYPE(op) \
+	op(LoopType::Loop_to_Frame_0) \
+	op(LoopType::Loop_to_Frame_1) \
+	op(LoopType::Return_to_Previous_Animation) \
+	op(LoopType::None) \
+	op(LoopType::Transition_with_Blend) \
+	op(LoopType::Transition_Simple) \
+	op(LoopType::TYPE6) \
+	op(LoopType::Pingpong) 
+
+enum class LoopType : uint8;
+template<> RANDOMUE4STUFF_API UEnum* StaticEnum<LoopType>();
+
 #define FOREACH_ENUM_CHAOPOSE(op) \
-	op(ChaoPose::STANDING) \
-	op(ChaoPose::SITTING) \
-	op(ChaoPose::LAYING_ON_BACK) \
-	op(ChaoPose::LAYING_ON_FRONT) \
-	op(ChaoPose::IN_AIR) \
-	op(ChaoPose::HOPPING) 
+	op(ChaoPose::Standing) \
+	op(ChaoPose::Sitting) \
+	op(ChaoPose::On_Back) \
+	op(ChaoPose::On_Belly) \
+	op(ChaoPose::In_Air) \
+	op(ChaoPose::Hopping) 
 
 enum class ChaoPose : uint8;
 template<> RANDOMUE4STUFF_API UEnum* StaticEnum<ChaoPose>();

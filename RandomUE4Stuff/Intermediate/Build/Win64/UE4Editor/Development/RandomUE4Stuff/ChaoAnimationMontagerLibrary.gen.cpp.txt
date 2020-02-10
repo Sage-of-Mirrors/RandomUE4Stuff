@@ -4,15 +4,19 @@ D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UOb
 D:\Github\RandomUE4Stuff\RandomUE4Stuff\Source\RandomUE4Stuff/ChaoAnimationMontagerLibrary.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Core.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformStackWalk.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/PlatformStackWalk.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformStackWalk.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformNamedPipe.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/PlatformNamedPipe.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformNamedPipe.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCriticalSection.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/PlatformFile.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformFile.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/PlatformAffinity.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAffinity.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/PlatformIncludes.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/MessageDialog.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ScopedDebugInfo.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ExternalProfiler.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/StringUtility.h
@@ -20,8 +24,12 @@ D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Serializat
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/MRUArray.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/TransArray.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/ArrayBuilder.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/Runnable.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/RunnableThread.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/SingleThreadEvent.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/SingleThreadRunnable.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/ThreadManager.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/StaticBitArray.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/MapBuilder.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\HAL/ThreadingBase.h
@@ -36,6 +44,7 @@ D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/Outpu
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceDebug.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceArchiveWrapper.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceAnsiError.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Stats/StatsMisc.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/TimeGuard.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryWriter.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryData.h
@@ -45,9 +54,16 @@ D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Serializat
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Serialization/ArrayWriter.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Serialization/BufferWriter.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/WildcardString.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/CircularBuffer.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/CircularQueue.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ProfilingHelpers.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceHelper.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/SlowTaskStack.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/FeedbackContext.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/ScopedSlowTask.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/AutomationTest.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Async/Async.h
+D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Internationalization/Regex.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/CallbackDevice.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/LocalTimestampDirectoryVisitor.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\UObject/BlueprintsObjectVersion.h
@@ -63,4 +79,5 @@ D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\UObject/Se
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\UObject/VRObjectVersion.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceConsole.h
 D:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/MonitoredProcess.h
+D:\Github\RandomUE4Stuff\RandomUE4Stuff\Source\RandomUE4Stuff\ChaoAnimEntry.h
 D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Inc\RandomUE4Stuff\ChaoAnimationMontagerLibrary.generated.h

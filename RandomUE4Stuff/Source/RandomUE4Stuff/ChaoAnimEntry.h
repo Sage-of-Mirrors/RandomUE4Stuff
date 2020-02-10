@@ -2,14 +2,26 @@
 
 #include "CoreMinimal.h"
 
-UENUM()
+UENUM(BlueprintType)
 enum class ChaoPose : uint8 {
-	STANDING,
-	SITTING,
-	LAYING_ON_BACK,
-	LAYING_ON_FRONT,
-	IN_AIR,
-	HOPPING
+	Standing,
+	Sitting,
+	On_Back,
+	On_Belly,
+	In_Air,
+	Hopping
+};
+
+UENUM(BlueprintType)
+enum class LoopType : uint8 {
+	Loop_to_Frame_0,
+	Loop_to_Frame_1,
+	Return_to_Previous_Animation,
+	None,
+	Transition_with_Blend,
+	Transition_Simple,
+	TYPE6,
+	Pingpong
 };
 
 struct ChaoAnimEntry {
@@ -18,5 +30,7 @@ struct ChaoAnimEntry {
 	int32 StartFrame = 0;
 	int32 EndFrame = 0;
 	float PlaySpeed = 1.0f;
-	ChaoPose Pose = ChaoPose::STANDING;
+	FString Name;
+	ChaoPose Pose = ChaoPose::Standing;
+	LoopType LoopType = LoopType::Loop_to_Frame_0;
 };
