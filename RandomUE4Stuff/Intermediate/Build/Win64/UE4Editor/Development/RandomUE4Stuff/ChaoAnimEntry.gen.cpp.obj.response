@@ -501,9 +501,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
-/I D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Inc\RandomUE4Stuff
-/I D:\Github\RandomUE4Stuff\RandomUE4Stuff\Source
-/I D:\Github\RandomUE4Stuff\RandomUE4Stuff\Source\RandomUE4Stuff
+/I C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Inc\RandomUE4Stuff
+/I C:\Github\RandomUE4Stuff\RandomUE4Stuff\Source
+/I C:\Github\RandomUE4Stuff\RandomUE4Stuff\Source\RandomUE4Stuff
 /I Editor\AnimationEditor\Public
 /I Editor\AnimationEditor
 /I ThirdParty\PhysX3\PxShared\include
@@ -529,18 +529,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
-/Yu"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
-/Fp"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
-"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Inc\RandomUE4Stuff\ChaoAnimEntry.gen.cpp"
-/FI"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Development\RandomUE4Stuff\Definitions.RandomUE4Stuff.h"
-/Fo"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Development\RandomUE4Stuff\ChaoAnimEntry.gen.cpp.obj"
+/FI"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
+/Yu"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
+/Fp"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
+"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Inc\RandomUE4Stuff\ChaoAnimEntry.gen.cpp"
+/FI"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Development\RandomUE4Stuff\Definitions.RandomUE4Stuff.h"
+/Fo"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\UE4Editor\Development\RandomUE4Stuff\ChaoAnimEntry.gen.cpp.obj"
 /TP
 /GR-
 /W4

@@ -241,17 +241,16 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd
-/Yc"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
-/Fp"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
-"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.cpp"
-/Fo"D:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+/I C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd
+/Yc"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
+/Fp"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
+"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.cpp"
+/Fo"C:\Github\RandomUE4Stuff\RandomUE4Stuff\Intermediate\Build\Win64\RandomUE4StuffEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
 /TP
 /GR-
 /W4
